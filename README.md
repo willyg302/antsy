@@ -4,6 +4,10 @@
 
 Sweet interpolated ANSI strings
 
+## Installing
+
+antsy is just a `pip install git+https://github.com/willyg302/antsy.git@master` away.
+
 ## The Demo Page
 
 Let's see what antsy can do! First, the code:
