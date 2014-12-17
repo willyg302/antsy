@@ -1,5 +1,7 @@
 # antsy
 
+[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](https://raw.githubusercontent.com/willyg302/antsy/master/LICENSE)
+
 Sweet interpolated ANSI strings
 
 ## The Demo Page
@@ -98,3 +100,7 @@ print(antsy.decorate(s, start='^', end='$'))
 ```
 
 Naturally, the delimiters must be different, or else an error will be thrown.
+
+## Testing
+
+Call tests with `python test.py` to run tests and print the demo page for manual verification. You may also call `python setup.py test`, but this does not print the demo.
