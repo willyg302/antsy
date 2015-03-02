@@ -11,6 +11,13 @@ __version__ = '0.1.0'
 VERSION = tuple(map(int, __version__.split('.')))
 
 
+PY2 = sys.version_info[0] == 2
+
+if not PY2:
+	import functools
+	reduce = functools.reduce
+
+
 def is_a_tty():
 	return hasattr(sys.stdout, 'isatty') and sys.stdout.isatty()
 

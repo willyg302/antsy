@@ -6,7 +6,7 @@ Sweet interpolated ANSI strings
 
 ## Installing
 
-antsy is just a `pip install git+https://github.com/willyg302/antsy.git@master` away.
+antsy is just a `pip install antsy` away.
 
 ## The Demo Page
 
